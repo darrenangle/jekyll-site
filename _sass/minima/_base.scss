@@ -91,17 +91,18 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
   text-decoration: none;
+  color: $brand-color;
 
   &:visited {
-    color: darken($brand-color, 15%);
     color: $brand-color;
   }
 
   &:hover {
-    color: darken($brand-color, 15%);
+    color: $text-color;
     text-decoration: none;
+    border-bottom: 2px dotted $brand-color;
+
   }
 
   .social-media-list &:hover {
