@@ -8,7 +8,6 @@
     font-weight: 400;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Aileron';
     src: url('aileron-italic-webfont.woff2') format('woff2'),
@@ -36,7 +35,7 @@
 
 // 200, Thin
 @font-face {
-    font-family: 'aileronthin';
+    font-family: 'Aileron';
     src: url('aileron-thin-webfont.woff2') format('woff2'),
          url('aileron-thin-webfont.woff') format('woff');
     font-weight: 200;
@@ -44,12 +43,97 @@
 
 }
 @font-face {
-    font-family: 'aileronthin_italic';
+    font-family: 'Aileron';
     src: url('aileron-thinitalic-webfont.woff2') format('woff2'),
          url('aileron-thinitalic-webfont.woff') format('woff');
     font-weight: 200;
     font-style: italic, oblique;
+}
+
+// 300, Light
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-light-webfont.woff2') format('woff2'),
+         url('aileron-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-lightitalic-webfont.woff2') format('woff2'),
+         url('aileron-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic, oblique;
+}
+
+// 500, Semibold
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-semibold-webfont.woff2') format('woff2'),
+         url('aileron-semibold-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-semibolditalic-webfont.woff2') format('woff2'),
+         url('aileron-semibolditalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic, oblique;
+
+}
+// 600, Bold
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-bold-webfont.woff2') format('woff2'),
+         url('aileron-bold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-bolditalic-webfont.woff2') format('woff2'),
+         url('aileron-bolditalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic, oblique;
 
 }
 
-// 300 
+// 700, Heavy
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-heavy-webfont.woff2') format('woff2'),
+         url('aileron-heavy-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-heavyitalic-webfont.woff2') format('woff2'),
+         url('aileron-heavyitalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic, oblique;
+
+}
+
+// 800, Black
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-black-webfont.woff2') format('woff2'),
+         url('aileron-black-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-blackitalic-webfont.woff2') format('woff2'),
+         url('aileron-blackitalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic, oblique;
+}
