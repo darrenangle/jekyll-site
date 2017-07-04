@@ -1,0 +1,55 @@
+
+// Aileron font & variations
+// 400, Regular
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-regular-webfont.woff2') format('woff2'),
+         url('aileron-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-italic-webfont.woff2') format('woff2'),
+         url('aileron-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic, oblique;
+}
+
+// 100, Ultralight
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-ultralight-webfont.woff2') format('woff2'),
+         url('aileron-ultralight-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Aileron';
+    src: url('aileron-ultralightitalic-webfont.woff2') format('woff2'),
+         url('aileron-ultralightitalic-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: italic, oblique;
+}
+
+// 200, Thin
+@font-face {
+    font-family: 'aileronthin';
+    src: url('aileron-thin-webfont.woff2') format('woff2'),
+         url('aileron-thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aileronthin_italic';
+    src: url('aileron-thinitalic-webfont.woff2') format('woff2'),
+         url('aileron-thinitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic, oblique;
+
+}
+
+// 300 
