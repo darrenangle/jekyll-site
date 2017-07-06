@@ -90,30 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-  text-decoration: none;
-  color: $text-color;
-  border-bottom: 1px solid $brand-color;
 
-  &:visited {
-    color: $text-color;
-  }
-
-  &:hover {
-    color: $brand-color;
-    text-decoration: none;
-    border-bottom: 2px dotted $brand-color;
-
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
-}
 
 
 /**

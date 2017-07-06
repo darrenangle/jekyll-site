@@ -1,0 +1,8 @@
+---
+layout: index-no-title
+title:  "freedom journal"
+permalink: freedom
+---
+## DARREN ANGLE'S FREEDOM JOURNAL
+<div class='spacer'></div>
+A collection of writing about freedom / things I'm thinking about now. Unattributed stuff is mine.

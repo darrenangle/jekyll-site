@@ -4,36 +4,34 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: index
 ---
-### Hi, I'm Darren.
 
-I'm an artist and entrepreneur.
+### ARTIST + ENTREPRENEUR
+<div class='spacer'></div>
+I love people, language, and human <a href="/freedom">freedom</a>.
 
-I work on projects that help people feel [free.](/freedom){:target="_blank"}
+I help sensitive people craft exceptional careers  
+<a href="https://youshouldquityourjob.com/" target="_blank">@You Should Quit Your Job</a>
 
-<div class='divider'> </div>
+I grow businesses using great writing and digital marketing.  
+<a href="/grow-your-business">How can I help you?</a>
 
-### current projects
+I’ve coded high-traffic websites for big companies like Google and P&G.
+Occasionally available for freelance. Check out my <a href="/portfolio">portfolio</a>.
 
-- a career & small business growth consultancy:  
-[You Should Quit Your Job](https://youshouldquityourjob.com){:target="_blank"}
+I’m an award-winning poet. Read <a href="/poetry">some of my work</a>.
 
-- a writing & life improvement company:  
-[Use Magic Words](https://usemagicwords.com){:target="_blank"}
+This is my favorite emoji:
+<div class='spacer'></div>
 
-- AI & Machine Learning for creatives
-
-- a book of [poetry](/poetry){:target="_blank"}
-
-- a music project
-
-- trying to [draw](https://www.instagram.com/drawdarren/) daily
-
-<div class='divider'> </div>
+### MORE MORE MORE
+<a href="/freedom" target="_blank">books</a> I'm reading now  
+some <a href="/freedom" target="_blank">photography</a> + other people's quotes  
+<a href="/freedom" target="_blank">drawings</a> from my sketchbook
 
 
-### recent writing
-<div class='divider'> </div>
+<div class='spacer'></div>
 
-### more about darren
+### CONTACT
 
-This is my favorite emoji: <img src='assets/img/spiral.png'/>
+email:  
+darren@youshouldquityourjob.com
