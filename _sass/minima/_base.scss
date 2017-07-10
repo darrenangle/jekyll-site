@@ -159,8 +159,8 @@ pre {
   }
 }
 .skinny-wrapper {
-  max-width: -webkit-calc(#{$skinny-content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$skinny-content-width} - (#{$spacing-unit} * 2));
+  // max-width: -webkit-calc(#{$skinny-content-width} - (#{$spacing-unit} * 2));
+  // max-width:         calc(#{$skinny-content-width} - (#{$spacing-unit} * 2));
 }
 
 
