@@ -133,7 +133,7 @@ permalink: grow-your-business
   <p>If you like your results, and want to keep growing, we’ll work together until you’ve got full control of your business and can grow it whenever you need to.</p>
   <p>If you want more leads, more customers, and more freedom in your business, schedule a free consultation to get started.</p>
   <div class="call-to-action-wrapper">
-    <form id="gform" class="cta-form" method="POST" action="https://script.google.com/macros/s/AKfycbxFAv2ubEuzryqoNMDBGB5f_IpTSg8iGYC5Pxq1aTdhIqrb4Xpt/exec">
+    <form id="gform2" class="cta-form" method="POST" action="https://script.google.com/macros/s/AKfycbxFAv2ubEuzryqoNMDBGB5f_IpTSg8iGYC5Pxq1aTdhIqrb4Xpt/exec">
     <h3>Schedule a free consultation.</h3>
     <p>30 minutes of expert insight could change everything.</p>
     <p class="label">Your Name</p>
@@ -148,7 +148,7 @@ permalink: grow-your-business
     <div class='spacer'></div>
     <input class='submit-button' type="submit" value="grow my business">
     </form>
-    <div id="thankyou_message" style="display:none;">
+    <div id="thankyou_message2" style="display:none;">
       <h3>Thank you. <br>I'll be in touch soon.</h3>
     </div>
   </div>
@@ -160,8 +160,8 @@ permalink: grow-your-business
     return re.test(email);
     }
     // get all data in form and return object
-    function getFormData() {
-    var elements = document.getElementById("gform").elements; // all form elements
+    function getFormData(formId) {
+    var elements = document.getElementById(formId).elements; // all form elements
     var fields = Object.keys(elements).map(function(k) {
       if(elements[k].name !== undefined) {
         return elements[k].name;
@@ -199,36 +199,41 @@ permalink: grow-your-business
     }
 
     function handleFormSubmit(event) {  // handles form submit withtout any jquery
-    event.preventDefault();           // we are submitting via xhr below
-    var data = getFormData();         // get the values submitted in the form
-    if( !validEmail(data.email) ) {   // if email is not valid show error
-      document.getElementById('email-invalid').style.display = 'block';
-      return false;
-    } else {
-      var url = event.target.action;  //
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', url);
-      // xhr.withCredentials = true;
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText )
-          console.log(xhr.responseText);
-          document.getElementById('gform').style.display = 'none'; // hide form
-          document.getElementById('thankyou_message').style.display = 'block';
-          return;
-      };
-      // url encode form data for sending as post data
-      var encoded = Object.keys(data).map(function(k) {
-          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
-      }).join('&')
-      xhr.send(encoded);
-    }
+      event.preventDefault();           // we are submitting via xhr below
+      var data = getFormData(event.target.id);         // get the values submitted in the form
+      if( !validEmail(data.email) ) {   // if email is not valid show error
+        document.getElementById('email-invalid').style.display = 'block';
+        return false;
+      } else {
+        var url = event.target.action;  //
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+            console.log( xhr.status, xhr.statusText )
+            console.log(xhr.responseText);
+            document.getElementById('gform').style.display = 'none'; // hide form
+            document.getElementById('thankyou_message').style.display = 'block';
+            document.getElementById('gform2').style.display = 'none'; // hide form
+            document.getElementById('thankyou_message2').style.display = 'block';
+            return;
+        };
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+            return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        xhr.send(encoded);
+      }
     }
     function loaded() {
     console.log('contact form submission handler loaded successfully');
     // bind to the submit event of our form
     var form = document.getElementById('gform');
+    var form2 = document.getElementById('gform2');
     form.addEventListener("submit", handleFormSubmit, false);
+    form2.addEventListener("submit", handleFormSubmit, false);
     };
+
     document.addEventListener('DOMContentLoaded', loaded, false);
 </script>
