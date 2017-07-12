@@ -2,6 +2,7 @@
   width: 80%;
   max-width: 600px;
   margin: auto;
+  text-align: left;
 
 
   h2,h3 {
@@ -15,6 +16,21 @@
   h3 {
     letter-spacing: inherit;
     font-size: 3em;
+  }
+  h3.with-divider {
+    padding-bottom: 25px;
+    border-bottom: 2px solid $brand-color;
+    width: 350px;
+  }
+
+  h4,h5 {
+    text-align: left;
+    font-weight: 200;
+    // text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  h5 {
+    font-weight: 200;
   }
   p {
     font-size: 1.3em;
