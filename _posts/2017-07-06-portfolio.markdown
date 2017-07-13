@@ -6,6 +6,9 @@ permalink: portfolio
 
 <div class='spacer'></div>
 <div class="sales-page portfolio-page">
+  <div class="back-button">
+    <a href="/"><h4 class="brand">← HOME</h4></a>
+  </div>
   <h2>code <span class="brand">/</span> marketing portfolio</h2>
   <div class='spacer'></div>
   <div class="skills-wrapper">
@@ -19,6 +22,10 @@ permalink: portfolio
         CURRENTLY LEARNING <span class="brand">/</span> <br>watson tensorflow graphql apollo
       </h5>
     </div>
+  </div>
+  <div class='spacer'></div>
+  <div class="contact">
+    <h4>CONTACT <span class="brand">/</span> darren@youshouldquityourjob.com</h4>
   </div>
 
   <div class='spacer'></div>
