@@ -52,7 +52,11 @@ permalink: portfolio
     <span class="brand">PROJECT</span><br>
     www.MyRescue.Dog web application and promotion to increase exposure to alternative TLDs
   </h4><br>
-  (image caro goes here.)<br><br>
+  <div class="donuts-img-wrapper slick-wrapper">
+    <img src="/assets/img/dog1.png" alt="">
+    <img src="/assets/img/dog2.png" alt="">
+    <img src="/assets/img/dog3.png" alt="">
+  </div><br>
   <h4><span class="brand">RESULTS</span>
     <br>1M twitter impressions (1 week)
     <br>250k active users (30 days)
@@ -71,7 +75,13 @@ permalink: portfolio
     <span class="brand">PROJECT</span><br>
     Coronausa.com and Corona Summer web app. evergreen brand site and summer promotion to give away 1M in digital prizes
   </h4><br>
-  (image caro goes here.)<br><br>
+  <div class="corona-img-wrapper slick-wrapper">
+    <img src="/assets/img/corona1.png" alt="">
+    <img src="/assets/img/corona2.png" alt="">
+    <img src="/assets/img/corona3.png" alt="">
+    <img src="/assets/img/corona4.png" alt="">
+    <img src="/assets/img/corona5.png" alt="">
+  </div><br>
 
   <h4><span class="brand">ROLE /</span> dev manager</h4>
   <h4><span class="brand">TECH /</span> meteor mongodb node aws</h4>
@@ -85,7 +95,13 @@ permalink: portfolio
     <span class="brand">PROJECT</span><br>
     in-store digital menus and animated signage. web application for local and global realtime updates.
   </h4><br>
-  (image caro goes here.)<br><br>
+  <div class="subway-img-wrapper slick-wrapper">
+    <img src="/assets/img/subway1.png" alt="">
+    <img src="/assets/img/subway2.png" alt="">
+    <img src="/assets/img/subway3.png" alt="">
+    <img src="/assets/img/subway4.png" alt="">
+    <img src="/assets/img/subway5.png" alt="">
+  </div><br>
 
   <h4><span class="brand">RESULTS /</span> franchisees able to update menu prices and animated content at will</h4>
   <h4><span class="brand">ROLE /</span> lead developer</h4>
@@ -126,6 +142,7 @@ permalink: portfolio
         autoplay: true,
         autoplaySpeed: 3000,
         speed: 1000,
+        // variableWidth: true
       });
     });
   </script>
