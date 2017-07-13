@@ -1,3 +1,6 @@
+// quick and dirty mess to be organized l8r bro
+
+
 body {
   background-color:#fff;
   border-top: 10px solid $brand-color;
@@ -166,4 +169,12 @@ a {
 .error {
   color: red;
   display: none;
+}
+
+
+.skills-wrapper {
+  display: flex;
+  div {
+    padding: 10px;
+  }
 }
